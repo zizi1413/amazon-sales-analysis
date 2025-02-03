@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np  
 
 #Read the file and read the first and last five rows
-data = pd.read_csv('/Users/zohrehsamieekadkani/Desktop/python-files/Abgabe/amazon.csv')    
+data = pd.read_csv('amazon.csv')    
 print(data.head())
 
 #It cleans and converts specific columns in a Pandas DataFrame (data) from strings containing symbols (₹, %, ,, etc.) into proper numeric values.
